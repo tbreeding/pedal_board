@@ -10,6 +10,7 @@
     "material-ui": "^0.20.2",
     "next": "latest",
     "next-redux-wrapper": "^3.0.0-alpha.3",
+    "nodemon": "^1.19.1",
     "prop-types": "latest",
     "react": "latest",
     "react-dom": "latest",
@@ -19,7 +20,7 @@
     "redux-saga": "^1.0.5"
   },
   "scripts": {
-    "dev": "next",
+    "dev": "nodemon node index.js",
     "build": "next build",
     "start": "next start"
   }
